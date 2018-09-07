@@ -1,0 +1,104 @@
+html, body {
+height: 100%;
+margin: 0px;
+}
+.showCase{
+	height: 85%;
+    min-height: 60%;
+    padding: 2.5%;
+    color: black;
+    background-image: linear-gradient(#25A7B4,#50B7C1,#2580B4);
+}
+
+#main-frame {
+	background-size: contain;
+	padding: 0;
+	height: 97%;
+}
+
+#naviBar{
+	padding: 0;
+}
+
+.form{
+	margin: 1% 5%;
+	padding-left: 30%;
+}
+
+.title{
+	display: none;
+}
+
+.main-Content{
+	min-height: 100%;
+	width: 100%;
+	
+}
+
+.container {
+	margin-top: 0;
+	padding-left: 3em;
+}
+
+#loadGIF{
+	height: 10%;
+	width: 5%;
+	margin-right: 45%;
+	margin-left: 45%;
+}
+
+
+#moviePoster{
+	width:20%;
+	height:20%;
+	margin-top: 1%;
+	border: 1px solid white;
+}
+
+
+.movie-name{
+	font-size: 2em;
+	text-align: left;
+	margin-top: 5%;
+	word-wrap: break-word;
+}
+p{
+font-family: 'Nunito', sans-serif;
+
+}
+h1{
+font-family: 'IM Fell French Canon SC', serif;
+	font-size: 5em;
+
+}
+b{
+font-family: 'IM Fell French Canon SC', serif;
+
+}
+
+
+
+/*Media Queries*/
+@media (max-width: 767px) {
+
+.form{
+	margin: 1%;
+	padding-left: 0%;
+}
+.movie-name{
+	font-size: 2em;	}
+
+#moviePoster{
+		width:200px;
+		height:200px;
+		margin-top: 16%;
+	}
+
+
+	#loadGIF{
+	height: 10%;
+	width: 10%;
+	margin-right: 45%;
+	margin-left: 45%;
+}
+}
